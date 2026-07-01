@@ -1,3 +1,51 @@
+# Environment
 .env
-.venv
-__pycache__
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+venv-*/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python version
+.python-version
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# UV
+uv.lock
